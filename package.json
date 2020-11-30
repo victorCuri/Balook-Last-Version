@@ -1,0 +1,44 @@
+{
+  "name": "Baloo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.9.0",
+    "@react-native-community/cameraroll": "^1.5.2",
+    "@sentry/react-native": "^2.0.0",
+    "axios": "^0.19.2",
+    "react": "16.9.0",
+    "react-native": "^0.61.4",
+    "react-native-base64": "0.0.2",
+    "react-native-camera": "^3.21.0",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-plain-calendar": "^1.0.5",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-svg": "^12.0.3",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.7",
+    "@babel/runtime": "7.8.7",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
